@@ -73,94 +73,55 @@
 
 ## 3. Análise do pseudocódigo
 
-### Pseudocódigo
-
-```
-soma ← 0
-para i ← 1 até n faça
-    soma ← soma + i
-fim-para
-```
-
-### a) Número de execuções
-
-A instrução:
-
-```
-soma ← soma + i
-```
-
-é executada exatamente:
-
-$$
-n
-$$
-
-vezes.
-
----
-
-### b) Custo do algoritmo
-
-O custo total é proporcional ao número de iterações do laço:
-
-$$
-T(n) = n
-$$
-
-Logo, a complexidade do algoritmo é:
-
-$$
-O(n)
-$$
-
+>### Pseudocódigo
+>
+>```
+>soma ← 0
+>para i ← 1 até n faça
+>    soma ← soma + i
+>fim-para
+>```
+>
+>### a) Número de execuções
+>
+> A instrução: `soma ← soma + i` é executada exatamente: $n$ vezes.
+>
+>---
+>
+>### b) Custo do algoritmo
+>
+>O custo total é proporcional ao número de iterações do laço: $T(n) = n$ Logo, a complexidade do algoritmo é: $O(n)$
+>
 ---
 
 ## 4. Comparação de algoritmos
 
-Dadas as funções:
-
-$$
-A(n) = 3n + 10
-$$
-
-$$
-B(n) = n^2
-$$
-
----
-
-### a) Valores pequenos de ( n )
-
-Para valores pequenos de ( n ), o algoritmo ( B(n) ) pode ser mais eficiente, pois:
-
-* ( $n^2$ ) ainda é pequeno
-* constantes como ( 10 ) têm maior impacto relativo
-
----
-
-### b) Valores grandes de ( n )
-
-Para valores grandes de ( n ), o algoritmo ( A(n) ) é mais eficiente, pois:
-
-$$
-3n + 10 \in O(n)
-$$
-
-enquanto:
-
-$$
-n^2 \in O(n^2)
-$$
-
-Como:
-
-$$
-\lim_{n \to \infty} \frac{n^2}{n} = \infty
-$$
-
-o crescimento de ( B(n) ) é muito maior.
-
+>Dadas as funções:
+>$A(n) = 3n + 10$  
+>$B(n) = n^2$  
+>
+>### a) Valores pequenos de ( n )
+>
+>Para valores pequenos de ( n ), o algoritmo ( B(n) ) pode ser mais eficiente, pois:
+>
+>* ( $n^2$ ) ainda é pequeno
+>* constantes como ( 10 ) têm maior impacto relativo
+>
+>---
+>### b) Valores grandes de ( n )
+>Para valores grandes de ( n ), o algoritmo ( A(n) ) é mais eficiente, pois:
+>
+>$
+>3n + 10 \in O(n)
+>$
+>
+>enquanto:
+>$n^2 \in O(n^2)$
+>
+>Como:
+>$\lim_{n \to \infty} \frac{n^2}{n} = \infty$
+>
+>o crescimento de ( B(n) ) é muito maior.
 ---
 
 ## 5. Importância da eficiência no projeto
