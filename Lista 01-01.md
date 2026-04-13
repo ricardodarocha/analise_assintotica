@@ -7,7 +7,6 @@
 
 3.  
 >Considere o pseudocódigo abaixo:
->
 >```
 >soma ← 0
 >para i ← 1 até n faça
@@ -15,14 +14,13 @@
 >fim-para
 >```
 >
->a) Quantas vezes a instrução soma ← soma + i é executada?
+>a) Quantas vezes a instrução soma ← soma + i é executada?  
 >b) Qual é o custo do algoritmo em função de n?
 
 4.  
 >Dois algoritmos A e B possuem custos dados por:
 >A(n) = 3n + 10
->B(n) = n²
->
+>B(n) = n²>
 >a) Qual algoritmo é mais eficiente para valores pequenos de n?
 >b) Qual algoritmo é mais eficiente para valores grandes de n? Justifique.
 
