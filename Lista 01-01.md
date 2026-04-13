@@ -1,35 +1,32 @@
 ## LISTA 01/01 
 
->(resolução abaixo)
+>1. Explique, com suas próprias palavras, o que é um algoritmo. Em seguida, apresente um exemplo simples do cotidiano que possa ser descrito como um algoritmo.
 
-1. Explique, com suas próprias palavras, o que é um algoritmo. Em seguida, apresente um exemplo simples do cotidiano que possa ser descrito como um algoritmo.
+>2. Considere dois algoritmos que resolvem corretamente o mesmo problema. Explique por que, mesmo ambos sendo corretos, um pode ser considerado melhor que o outro.
 
-2. Considere dois algoritmos que resolvem corretamente o mesmo problema. Explique por que, mesmo ambos sendo corretos, um pode ser considerado melhor que o outro.
+>3. Considere o pseudocódigo abaixo:
+>
+>```
+>soma ← 0
+>para i ← 1 até n faça
+>    soma ← soma + i
+>fim-para
+>```
+>
+>a) Quantas vezes a instrução soma ← soma + i é executada?
+>b) Qual é o custo do algoritmo em função de n?
 
-3. Considere o pseudocódigo abaixo:
+>4. Dois algoritmos A e B possuem custos dados por:
+>A(n) = 3n + 10
+>B(n) = n²
+>
+>a) Qual algoritmo é mais eficiente para valores pequenos de n?
+>b) Qual algoritmo é mais eficiente para valores grandes de n? Justifique.
 
-soma ← 0
-para i ← 1 até n faça
-    soma ← soma + i
-fim-para
-
-a) Quantas vezes a instrução soma ← soma + i é executada?
-b) Qual é o custo do algoritmo em função de n?
-
+>5. Explique por que a eficiência deve ser considerada ainda na fase de projeto do algoritmo, e não apenas após sua implementação.
  
+# RESOLUÇÃO lista 01-01
 
-4. Dois algoritmos A e B possuem custos dados por:
-
-A(n) = 3n + 10
-
-B(n) = n²
-
-a) Qual algoritmo é mais eficiente para valores pequenos de n?
-b) Qual algoritmo é mais eficiente para valores grandes de n? Justifique.
-
-5. Explique por que a eficiência deve ser considerada ainda na fase de projeto do algoritmo, e não apenas após sua implementação.
- 
->RESOLUÇÃO
 ## 1. O que é um algoritmo?
 
 Um algoritmo é uma sequência finita, bem definida e ordenada de instruções que, quando executadas, resolvem um problema ou realizam uma tarefa.
