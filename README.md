@@ -227,9 +227,9 @@ $$
 
 ---
 
-# 📌 2. Verificação de pares
+# 2. Verificação de pares
 
-## (a) ( f(n) = 25n ), ( g(n) = n^3 )
+## (a) ( $f(n) = 25n ), ( g(n) = n^3$ )
 
 Para ( $n \ge 1$ ):
 
@@ -269,7 +269,7 @@ $$
 
 ---
 
-# 📌 3. Provar que ( f(n) \in O(n^3) )
+# 3. Provar que ( $f(n) \in O(n^3)$ )
 
 $$
 f(n) = 3n^3 + 2n^2
@@ -298,7 +298,7 @@ $$
 
 ---
 
-# 📌 4. Transitividade da notação ( O )
+# 4. Transitividade da notação ( O )
 
 Suponha:
 
@@ -336,7 +336,7 @@ $$
 
 ---
 
-# 📌 5. Se ( f(n) \in O(n) ), então ( f(n)^2 \in O(n^2) )
+# 5. Se ( $f(n) \in O(n) ), então ( f(n)^2 \in O(n^2)$ )
 
 Se:
 
