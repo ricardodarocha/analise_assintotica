@@ -31,46 +31,43 @@
 
 ## 1. O que é um algoritmo?
 
-Um algoritmo é uma sequência finita, bem definida e ordenada de instruções que, quando executadas, resolvem um problema ou realizam uma tarefa.
-
-Em outras palavras, trata-se de um procedimento passo a passo que transforma uma entrada em uma saída desejada.
+> Um algoritmo é uma sequência finita, bem definida e ordenada de instruções que, quando executadas, resolvem um problema ou realizam uma tarefa.  
+> Em outras palavras, trata-se de um procedimento passo a passo que transforma uma entrada em uma saída desejada.
 
 ### Exemplo do cotidiano
 
-Um exemplo simples é uma receita de café:
-
-1. Aquecer a água
-2. Colocar o pó de café no filtro
-3. Despejar a água quente sobre o pó
-4. Aguardar a filtragem
-5. Servir o café
-
-Esse processo é um algoritmo, pois segue uma sequência lógica para atingir um objetivo.
+>Um exemplo simples é uma receita de café:  
+>1. Aquecer a água  
+>2. Colocar o pó de café no filtro  
+>3. Despejar a água quente sobre o pó  
+>4. Aguardar a filtragem  
+>5. Servir o café  
+>Esse processo é um algoritmo, pois segue uma sequência lógica para atingir um objetivo.
 
 ---
 
 ## 2. Comparação entre algoritmos corretos
 
-Mesmo que dois algoritmos resolvam corretamente o mesmo problema, um pode ser considerado melhor que o outro devido à sua eficiência.
-
-Os principais critérios são:
-
-* **Tempo de execução** (complexidade temporal)
-* **Uso de memória** (complexidade espacial)
-
-Por exemplo, um algoritmo com custo:
-
-$$
-O(n)
-$$
-
-é mais eficiente do que outro com custo:
-
-$$
-O(n^2)
-$$
-
-para valores grandes de ( n ), pois cresce mais lentamente.
+>Mesmo que dois algoritmos resolvam corretamente o mesmo problema, um pode ser considerado melhor que o outro devido à sua eficiência.
+>
+>Os principais critérios são:
+>
+>* **Tempo de execução** (complexidade temporal)
+>* **Uso de memória** (complexidade espacial)
+>
+>Por exemplo, um algoritmo com custo:
+>
+>$$
+>O(n)
+>$$
+>
+>é mais eficiente do que outro com custo:
+>
+>$$
+>O(n^2)
+>$$
+>
+>para valores grandes de ( n ), pois cresce mais lentamente.
 
 ---
 
