@@ -357,15 +357,8 @@ Logo:
 $$
 f(n)^2 \in O(n^2)
 $$
-
----
-
-# ✔️ Observações
-
-* Compatível com GitHub (KaTeX)
-* Sem `\section`, `\begin`, etc.
-* Apenas `$$ ... $$` e `$ ... $`
  
+----
 
 ```lean
 import Mathlib.Data.Real.Basic
