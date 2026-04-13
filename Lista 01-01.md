@@ -96,7 +96,7 @@
 
 ## 4. Comparação de algoritmos
 
->Dadas as funções:
+>Dadas as funções:  
 >$A(n) = 3n + 10$  
 >$B(n) = n^2$  
 >
