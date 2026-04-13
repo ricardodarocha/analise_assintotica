@@ -181,7 +181,7 @@ A eficiência deve ser considerada ainda na fase de projeto porque:
 Corrigir ineficiências depois de implementar pode ser mais caro e complexo do que projetar corretamente desde o início.
  
 
-## LISTA 02/01
+## LISTA  XX
 ## Exercício 1. Provar que $( f(n) \in O(n^2) )$
 
 Queremos mostrar que existem constantes $( c > 0 ) e ( n_0 \in \mathbb{N} )$ tais que:
@@ -371,6 +371,9 @@ def bigO (f g : ℕ → ℝ) :=
   ∃ c > 0, ∃ n0, ∀ n ≥ n0, f n ≤ c * g n
 
 -- 1)
+--/
+--Provar que f(n) \in O(n^2)  
+--/--
 theorem ex1 :
   bigO (fun n => (3/2 : ℝ)*n^2 + (7/2 : ℝ)*n - 4)
        (fun n => (n:ℝ)^2) :=
