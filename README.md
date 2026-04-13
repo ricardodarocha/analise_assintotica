@@ -140,7 +140,7 @@ $$
 
 Para valores pequenos de ( n ), o algoritmo ( B(n) ) pode ser mais eficiente, pois:
 
-* ( n^2 ) ainda é pequeno
+* ( $n^2$ ) ainda é pequeno
 * constantes como ( 10 ) têm maior impacto relativo
 
 ---
@@ -322,7 +322,7 @@ $$
 g(n) \le c_2 h(n), \quad \forall n \ge n_2
 $$
 
-Para ( n \ge \max(n_1, n_2) ):
+Para ( $n \ge \max(n_1, n_2)$ ):
 
 $$
 f(n) \le c_1 g(n) \le c_1 c_2 h(n)
