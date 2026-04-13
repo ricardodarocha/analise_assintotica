@@ -6,7 +6,7 @@
 >Considere dois algoritmos que resolvem corretamente o mesmo problema. Explique por que, mesmo ambos sendo corretos, um pode ser considerado melhor que o outro.
 
 >3.  
->Considere o pseudocódigo abaixo:
+>Considere o pseudocódigo abaixo: 
 >```
 >soma ← 0
 >para i ← 1 até n faça
@@ -126,12 +126,12 @@
 
 ## 5. Importância da eficiência no projeto
 
-A eficiência deve ser considerada ainda na fase de projeto porque:
-
-* Define a **escalabilidade** do sistema
-* Evita retrabalho após implementação
-* Reduz custos computacionais (tempo e memória)
-* Garante viabilidade para grandes volumes de dados
-
-Corrigir ineficiências depois de implementar pode ser mais caro e complexo do que projetar corretamente desde o início.
+> A eficiência deve ser considerada ainda na fase de projeto porque:
+>
+>* Define a **escalabilidade** do sistema  
+>* Evita retrabalho após implementação  
+>* Reduz custos computacionais (tempo e memória)  
+>* Garante viabilidade para grandes volumes de dados  
+>
+>Corrigir ineficiências depois de implementar pode ser mais caro e complexo do que projetar corretamente desde o início.
  
