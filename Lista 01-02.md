@@ -28,14 +28,11 @@ Termos de menor grau tornam-se irrelevantes comparados ao termo dominante
 
 ### 3. Notação O
 
-a) f(n) = 5n + 20  
-⇒ O(n)
+a) $f(n) = 5n + 20 ⇒ O(n)$  
 
-b) f(n) = 3n² + 2n + 7  
-⇒ O(n²)
+b) $f(n) = 3n² + 2n + 7⇒ O(n²)$
 
-c) f(n) = log n + 100  
-⇒ O(log n)
+c) $f(n) = log n + 100⇒ O(log n)$  
 
 ---
 
