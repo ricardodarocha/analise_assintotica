@@ -1,11 +1,11 @@
 ## LISTA 01/01 
-1.  
+>1.  
 >Explique, com suas próprias palavras, o que é um algoritmo. Em seguida, apresente um exemplo simples do cotidiano que possa ser descrito como um algoritmo.
 
-2.  
+>2.  
 >Considere dois algoritmos que resolvem corretamente o mesmo problema. Explique por que, mesmo ambos sendo corretos, um pode ser considerado melhor que o outro.
 
-3.  
+>3.  
 >Considere o pseudocódigo abaixo:
 >```
 >soma ← 0
@@ -17,14 +17,14 @@
 >a) Quantas vezes a instrução soma ← soma + i é executada?  
 >b) Qual é o custo do algoritmo em função de n?
 
-4.  
+>4.  
 >Dois algoritmos A e B possuem custos dados por:
 >A(n) = 3n + 10
 >B(n) = n²>
 >a) Qual algoritmo é mais eficiente para valores pequenos de n?
 >b) Qual algoritmo é mais eficiente para valores grandes de n? Justifique.
 
-5.  
+>5.  
 >Explique por que a eficiência deve ser considerada ainda na fase de projeto do algoritmo, e não apenas após sua implementação.
  
 # RESOLUÇÃO lista 01-01
